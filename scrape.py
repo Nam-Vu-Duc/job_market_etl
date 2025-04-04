@@ -603,7 +603,7 @@ if __name__ == '__main__':
         )
         cur = conn.cursor()
 
-        # get_job_from_top_cv(conn, cur, producer)
+        get_job_from_top_cv(conn, cur, producer)
         # get_job_from_career_link(conn, cur, producer)
         # get_job_from_career_viet(conn, cur, producer)
         # get_job_from_it_viec(conn, cur, producer)
